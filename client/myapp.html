@@ -1,8 +1,39 @@
 <head>
-  <title>Embark - SimpleStorage Demo</title>
+  <title>GroupMe Spam</title>
 </head>
+
 <body>
-  <h3>Embark - SimpleStorage Demo</h3>
+  <h3>GroupMe Spam</h3>
+
+Input your GroupMe access token and group ID.
+  <br>
+  <br>
+<form id="makeContract">
+    Access Token:
+  <input type="text" name="accessToken">
+  <br>
+    Group ID:
+  <input type="text" name="groupID">
+  <br>
+  <br>
+  If <input type="text" name="username"> sends more than <input type="text" name="messageCap"> 
+  messages per minute, send <input type="text" name="etherAmount"> ether from account <input type="text" name="sendingAddress"> to account <input type="text" name="recipientAddress">.
+  <br>
+  <br>
+Input the information for the account that will fund the smart contract.
+  <br>
+  <br>
+  Ethereum Address:
+  <input type="text" name="ethereumAddress">
+  <br>
+  <br>
+  <input type="submit" value="Deploy">
+</form>
+
+  <br>
+  <br>
+  <br>
+  <br>
 
   {{> set_value}}
 

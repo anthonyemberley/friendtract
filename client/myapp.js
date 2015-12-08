@@ -10,7 +10,7 @@ if (Meteor.isClient) {
         console.log(res);
       }
     })
-    setTimeout(checkGroupmeStatus,1000);
+    setTimeout(checkGroupmeStatus,10000);
   };
 
   Session.setDefault('value', 0);

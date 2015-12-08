@@ -1,8 +1,8 @@
 # Friendtract
 
-Friendtract is an early first-stage prototype of a Dapp to enable smart contracts between friends. In this version, a smart contract is created between two friends who share a group in the GroupMe mobile app. The contract charges one of the friends if he spams the group (i.e. if he sends more than a set threshold number of messages per minute to the group).
+Friendtract is an early first-stage prototype of a Dapp to enable smart contracts between friends. In this version, a smart contract is created between two friends who share a group in the GroupMe mobile app. The contract charges one of the friends if he/she spams the group (i.e. if he/she sends more than a set threshold number of messages per minute to the group).
 
-This application is built using the Embark framework (https://github.com/hitchcott/meteor-embark) with Meteor. It is run using a local node on the Ethereum testrpc network. In this first attempt, real ether is not sent and the smart contracts are not called. This version is instead an effort to understand how the Embark framework works, and the feasibility of a more robust application.
+This application is built using the Embark framework (https://github.com/hitchcott/meteor-embark) with Meteor. It is run using a local node on the Ethereum testrpc network. In this first attempt, real ether is not sent and smart contracts are not deployed to the blockchain. This version is instead an effort to understand how the Embark framework works, and the feasibility of a more robust application.
 
 # Usage
 
@@ -10,7 +10,7 @@ Upon launching the application, the user is present with the option to create a 
 
 ![Alt text](./public/images/home_page.png?raw=true "home_page")
 
-After selecting this option, they must fill out the requisite fields. The access token is obtained by creating a developer account on GroupMe (https://dev.groupme.com/) to access the GroupMe API. The GroupId can also be found on the GroupMe site, and references the specific group a user wants the application to monitor for spam. The next input field is the GroupMe username of the friend to watch for spam, and the contract creator specifies what number of messages per minute qualifies as spam. The amount of ether to charge for spamming is specified, as well as the public key of the Ethereum account that will receive funds if there is spam. The account to fund the smart contract is the public key of the Ethereum contract that will send funds to the contract to be held in escrow.
+After selecting this option, the user must fill out all the fields in the pop up window. The access token is obtained by creating a developer account on GroupMe (https://dev.groupme.com/) to access the GroupMe API. The GroupId can also be found on the GroupMe site, and references the specific group a user wants the application to monitor for spam. The next input field is the GroupMe username of the friend to watch for spam, and the contract creator specifies what number of messages per minute qualifies as spam. The amount of ether to charge for spamming is specified, as well as the public key of the Ethereum account that will receive funds if there is spam. The account to fund the smart contract is the public key of the Ethereum contract that will send funds to the contract to be held in escrow.
 
 ![Alt text](./public/images/contract_info.png?raw=true "contract_info")
 
@@ -18,7 +18,13 @@ The flow of the contract is such that the contract to monitor for spam is funded
 
 ![Alt text](./public/images/deployed.png?raw=true "deployed")
 
-In the future, this type of contract could ideally be deployed to the live blockchain, with the option to specify a maximum amount of gas to use for the contract, as well as login capabilites to enable users to see their active contracts, and kill any they are done with.
+# Smart Contract Component
+
+As imagined, the Friendtract Dapp would be comprised of two smart contracts. The first is modeled after the standard SimpleStorage contract, and contains functions to set, increment, get, and reset a counter. This contract interacts with the JSON data returned from the GroupMe API to maintain a count of the number of messages sent by the friend being monitored for spam. This count would be queried every minute to see if the number of messages exceeds the thereshold, and then reset to zero. If the count did exceed the threshold, the SimpleStorage contract would call the user's contract that had been deployed via the web app to trigger the transfer of the set amount of ether from escrow to the recipient account.
+
+# Future Extensions
+
+In the future, Friendtract would not require a user to run a local Ethereum node to create a contract, and contracts would be deployed to the live blockchain, with the option to specify a maximum amount of gas to use for the contract. Furthermore, it would include login capabilites to enable users to see their active contracts, and kill any they are finished with.
 
 # Contributing
 

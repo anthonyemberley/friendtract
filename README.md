@@ -4,6 +4,8 @@ Friendtract is an early first-stage prototype of a Dapp to enable smart contract
 
 This application is built using the Embark framework (https://github.com/hitchcott/meteor-embark) with Meteor. It is run using a local node on the Ethereum testrpc network. In this first attempt, real ether is not sent and the smart contracts are not called. This version is instead an effort to understand how the Embark framework works, and the feasibility of a more robust application.
 
+# Usage
+
 Upon launching the application, the user is present with the option to create a new contract.
 
 ![Alt text](./public/images/home_page.png?raw=true "home_page")
@@ -18,4 +20,10 @@ The flow of the contract is such that the contract to monitor for spam is funded
 
 In the future, this type of contract could ideally be deployed to the live blockchain, with the option to specify a maximum amount of gas to use for the contract, as well as a login to enable users to see their active contracts, and kill any they are done with.
 
-** with help from @Firescar96 **
+# Contributing
+
+There is a lot to do, and developing with Ethereum is still relatively new. Any help or contributions are welcome!
+
+# Acknowledgements
+
+Inspiration for this project came from the MIT Future Commerce: Rebooting Markets, Money, Transactions & Security (MAS.S63) class. Special thanks to all our professors, as well as other students that helped us with this project.

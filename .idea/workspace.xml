@@ -2,8 +2,283 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3658ca00-2d3b-48eb-ba18-5ec184b1cf95" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/groupme.js" afterPath="$PROJECT_DIR$/server/groupme.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/groupmebot.js" afterPath="$PROJECT_DIR$/server/groupmebot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/background/background1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/basic.icons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/basic.icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/basic.icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/icons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/icons.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/.custom.semantic.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/accordion.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/accordion.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/accordion.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/accordion.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/accordion.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/views/ad.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/views/ad.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/views/ad.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/views/ad.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/views/ad.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/behaviors/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/basic.icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/collections/breadcrumb.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/collections/breadcrumb.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/collections/breadcrumb.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/collections/breadcrumb.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/collections/breadcrumb.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/elements/button.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/button.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/button.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/button.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/button.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/views/card.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/views/card.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/views/card.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/views/card.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/views/card.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/checkbox.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/checkbox.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/checkbox.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/checkbox.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/checkbox.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/behaviors/colorize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/views/comment.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/views/comment.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/views/comment.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/views/comment.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/views/comment.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/elements/container.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/container.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/container.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/container.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/container.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/custom.semantic.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/dimmer.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/dimmer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/dimmer.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/dimmer.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/dimmer.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/dimmer.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/elements/divider.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/divider.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/divider.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/divider.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/divider.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/dropdown.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/dropdown.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/dropdown.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/dropdown.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/dropdown.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/lib/elements.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/embed.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/embed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/embed.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/embed.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/embed.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/embed.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/views/feed.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/views/feed.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/views/feed.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/views/feed.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/views/feed.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/elements/flag.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/flag.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/flag.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/flag.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/flag.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/collections/form.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/behaviors/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/collections/form.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/collections/form.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/collections/form.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/collections/form.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/collections/grid.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/collections/grid.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/collections/grid.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/collections/grid.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/collections/grid.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/elements/header.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/header.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/header.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/header.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/header.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/header.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/helpers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/home.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/elements/icon.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/icon.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/icon.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/icon.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/icon.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/elements/image.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/image.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/image.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/image.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/image.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/elements/input.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/input.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/input.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/input.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/input.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/views/item.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/views/item.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/views/item.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/views/item.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/views/item.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/elements/label.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/label.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/label.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/label.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/label.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/elements/list.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/list.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/list.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/list.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/list.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/elements/loader.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/loader.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/loader.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/loader.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/loader.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/main.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/collections/menu.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/collections/menu.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/collections/menu.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/collections/menu.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/collections/menu.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/collections/message.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/collections/message.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/collections/message.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/collections/message.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/collections/message.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/modal.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/modal.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/modal.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/modal.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/modal.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/nag.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/nag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/nag.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/nag.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/nag.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/nag.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/pantry.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/popup.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/popup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/popup.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/popup.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/popup.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/popup.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/progress.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/progress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/progress.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/progress.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/progress.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/progress.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/elements/rail.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/rail.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/rail.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/rail.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/rail.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/rating.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/rating.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/rating.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/rating.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/rating.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/rating.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/recipe.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/recipes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/globals/reset.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/globals/reset.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/globals/reset.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/globals/reset.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/globals/reset.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/elements/reveal.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/reveal.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/reveal.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/reveal.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/reveal.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/search.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/search.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/search.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/search.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/search.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/elements/segment.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/segment.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/segment.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/segment.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/segment.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/semantic.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/shape.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/shape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/shape.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/shape.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/shape.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/shape.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/shoppingList.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/sidebar.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/sidebar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/sidebar.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/sidebar.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/sidebar.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/sidebar.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/globals/site.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/globals/site.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/globals/site.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/globals/site.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/globals/site.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/globals/site.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/behaviors/state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/views/statistic.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/views/statistic.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/views/statistic.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/views/statistic.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/views/statistic.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/elements/step.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/step.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/step.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/elements/step.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/elements/step.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/sticky.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/sticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/sticky.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/sticky.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/sticky.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/sticky.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/suggestedRecipes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/tab.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/tab.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/tab.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/tab.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/tab.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/collections/table.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/collections/table.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/collections/table.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/collections/table.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/collections/table.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/theme.config.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/theme.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/transition.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/modules/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/transition.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/transition.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/site/modules/transition.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/themes/default/modules/transition.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/behaviors/visibility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/definitions/behaviors/visit.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/groupmebot.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/myapp.css" afterPath="$PROJECT_DIR$/client/myapp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/myapp.html" afterPath="$PROJECT_DIR$/client/myapp.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/myapp.js" afterPath="$PROJECT_DIR$/client/myapp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,8 +305,8 @@
       <file leaf-file-name="myapp.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/myapp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.272728">
-              <caret line="67" column="69" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
+            <state vertical-scroll-proportion="-24.0">
+              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -40,8 +315,8 @@
       <file leaf-file-name="myapp.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/myapp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29850745">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.19900498">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -425,20 +700,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/groupmebot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21428572">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <marker date="1449550273000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/myapp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.272728">
-          <caret line="67" column="69" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
+        <state vertical-scroll-proportion="-24.0">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -453,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/myapp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29850745">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.19900498">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding />
         </state>
       </provider>

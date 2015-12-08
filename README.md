@@ -10,7 +10,7 @@ Upon launching the application, the user is present with the option to create a 
 
 ![Alt text](./public/images/home_page.png?raw=true "home_page")
 
-After selecting this option, they must fill out the requisite fields. The access token is obtained by creating a developer account on GroupMe (https://dev.groupme.com/) to access the GroupMe API. The GroupId can also be found on the GroupMe site, and references the specific group a user wants the application to monitor for spam. The next input field is the GroupMe username of the friend to watch for spam, and the contract creator specifies what number of messages per minute qualifies as spam. The amount of ether to charge for spamming is specified, and the public key of the Ethereum account that will receive funds if there is spam. The account to fund escrow is the public key of the Ethereum contract that will be used to fund the contract.
+After selecting this option, they must fill out the requisite fields. The access token is obtained by creating a developer account on GroupMe (https://dev.groupme.com/) to access the GroupMe API. The GroupId can also be found on the GroupMe site, and references the specific group a user wants the application to monitor for spam. The next input field is the GroupMe username of the friend to watch for spam, and the contract creator specifies what number of messages per minute qualifies as spam. The amount of ether to charge for spamming is specified, as well as the public key of the Ethereum account that will receive funds if there is spam. The account to fund the smart contract is the public key of the Ethereum contract that will send funds to the contract to be held in escrow.
 
 ![Alt text](./public/images/contract_info.png?raw=true "contract_info")
 
@@ -18,11 +18,11 @@ The flow of the contract is such that the contract to monitor for spam is funded
 
 ![Alt text](./public/images/deployed.png?raw=true "deployed")
 
-In the future, this type of contract could ideally be deployed to the live blockchain, with the option to specify a maximum amount of gas to use for the contract, as well as a login to enable users to see their active contracts, and kill any they are done with.
+In the future, this type of contract could ideally be deployed to the live blockchain, with the option to specify a maximum amount of gas to use for the contract, as well as login capabilites to enable users to see their active contracts, and kill any they are done with.
 
 # Contributing
 
-There is a lot to do, and developing with Ethereum is still relatively new. Any help or contributions are welcome!
+There is a lot to do, and developing with Ethereum is still relatively new. Any contributions are welcome!
 
 # Acknowledgements
 

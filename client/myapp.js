@@ -30,6 +30,8 @@ if (Meteor.isClient) {
 
   Template.set_value.events({
     'click button': function () {
+      var API = require('groupme').Stateless;
+      const ACCESS_TOKEN = "f487ce307f3601338c7306fd38831e3b";
       var value = parseInt($("input.text").val(), 0);
       SimpleStorage.set(value);
       addToLog("SimpleStorage.set("+value+")");

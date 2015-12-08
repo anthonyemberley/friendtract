@@ -33,9 +33,40 @@ if (Meteor.isClient) {
       var value = parseInt($("input.text").val(),0);
       SimpleStorage.set(value);
       addToLog("SimpleStorage.set("+value+")");
-      Meteor.call('groupmeTest',function(err,res){
-        console.log(res);
+    }
+  });
+
+  Template.make_contract.events({
+    'click button': function(event){
+      event.preventDefault();
+      var data;
+      var accessToken = $('#accessToken')[0].value;
+      var groupID = $('#groupID')[0].value;
+      var username = $('#username')[0].value;
+      var messageCap = $('#messageCap')[0].value;
+      var etherAmount = $('#etherAmount')[0].value;
+      var sendingAddress = $('#sendingAddress')[0].value;
+      var recipientAddress = $('#recipientAddress')[0].value;
+      var etherAddress = $('#ethereumAddress')[0].value;
+      data = {
+        "accessToken":accessToken,
+        "groupID":groupID,
+        "username":username,
+        "messageCap":messageCap,
+        "etherAmount":etherAmount,
+        "sendingAddress":sendingAddress,
+        "recipientAddress":recipientAddress,
+        "etherAddress":etherAddress
+      }
+      Meteor.call('groupmeMagic',data,function(err,res){
+        if (err){
+          throw err;
+        }
+        else{
+          console.log(res);
+        }
       })
     }
   });
+
 }

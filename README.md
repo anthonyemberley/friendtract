@@ -6,9 +6,15 @@ This application is built using the Embark framework (https://github.com/hitchco
 
 Upon launching the application, the user is present with the option to create a new contract.
 
+![Alt text](./public/images/home_page.png?raw=true "home_page")
+
 After selecting this option, they must fill out the requisite fields. The access token is obtained by creating a developer account on GroupMe (https://dev.groupme.com/) to access the API. The GroupId can also be found on the GroupMe site, and references the specific group a user wants the application to monitor for spam. The next input field is the GroupMe username of the friend to watch for spam, and the contract creator specifies what number of messages per minute qualifies as spam. The amount of ether to charge for spamming is specified, and the public key of the Ethereum account that will receive funds if there is spam. The account to fund escrow is the public key of the Ethereum contract that will be used to fund the contract.
 
+![Alt text](./public/images/contract_info.png?raw=true "contract_info")
+
 The flow of the contract is such that the contract to monitor for spam is funded (presumably by the friend that is being watched for spam), and these funds are then held in escrow by the contract. If this friend does in fact exceed the specified maximum number of messages per minute, the smart contract will self-execute and send ether from escrow to the recipient's Ethereum account.
+
+![Alt text](./public/images/deployed.png?raw=true "deployed")
 
 In the future, this type of contract could ideally be deployed to the live blockchain, and there would be an option to specify the maximum amount of gas to use for the contract, as well as a login to enable users to see their active contracts, and kill any they are done with.
 

@@ -72,7 +72,7 @@ if (Meteor.isClient) {
       var username = $('#username')[0].value;
       var messageCap = $('#messageCap')[0].value;
       var etherAmount = $('#etherAmount')[0].value;
-      var sendingAddress = $('#sendingAddress')[0].value;
+      // var sendingAddress = $('#sendingAddress')[0].value;
       var recipientAddress = $('#recipientAddress')[0].value;
       var etherAddress = $('#ethereumAddress')[0].value;
       data = {
@@ -81,7 +81,7 @@ if (Meteor.isClient) {
         "username":username,
         "messageCap":messageCap,
         "etherAmount":etherAmount,
-        "sendingAddress":sendingAddress,
+        // "sendingAddress":sendingAddress,
         "recipientAddress":recipientAddress,
         "etherAddress":etherAddress
       };

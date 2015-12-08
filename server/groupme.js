@@ -22,7 +22,7 @@ Meteor.methods({
         var numMessages = howManyMessages(messages);
         if (numMessages > 5){
           console.log("Harrison has sent " + numMessages + " of the last 10 messages! He/she will" +
-            " be charged 25 Ether!");
+            " be charged 3 Ether!");
         }
         messages = messages.reverse();
         for (var i = 0; i < 10; i++){

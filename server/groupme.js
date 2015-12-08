@@ -21,7 +21,7 @@ Meteor.methods({
         messages = ret.messages;
         var numMessages = howManyMessages(messages);
         if (numMessages > 5){
-          console.log("Harrison has sent " + numMessages + " of the last 10 messages! He/she will" +
+          console.log("Harrison has sent " + numMessages + " of the last 20 messages! He/she will" +
             " be charged 3 Ether!");
         }
         messages = messages.reverse();

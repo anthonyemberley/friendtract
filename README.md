@@ -26,6 +26,10 @@ As imagined, the Friendtract Dapp would be comprised of two smart contracts. The
 
 In the future, Friendtract would not require a user to run a local Ethereum node to create a contract, and contracts would be deployed to the live blockchain, with the option to specify a maximum amount of gas to use for the contract. Furthermore, it would include login capabilites to enable users to see their active contracts, and kill any they are finished with.
 
+# Play with the Prototype
+
+If you want to try to host the application yourself, install the Embark framework -- https://github.com/iurimatias/embark-framework -- and Meteor, and then clone this repo. Cd into the project directory, and run embark simulator. Open a new window and run embark deploy, followed by meteor. The app should then be available at your local host.
+
 # Contributing
 
 There is a lot to do, and developing with Ethereum is still relatively new. Any contributions are welcome!

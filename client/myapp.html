@@ -1,29 +1,43 @@
 <head>
-  <title>GroupMe Spam</title>
+  <title>Contract!</title>
 </head>
 
 <body>
-  <h3>GroupMe Spam</h3>
 
-Input your GroupMe access token and group ID.
-  <br>
-  <br>
-  {{> make_contract}}
-  <br>
-  <br>
-  <br>
-  <br>
+  <div class="ui modal">
+    <i class="close icon"></i>
+    <div class="header blue">
+      Add a New Contract
+    </div>
+        Input your GroupMe access token and group ID.
+        {{> make_contract}}
+  </div>
+  {{> header}}
 
+<!-- 
   {{> set_value}}
 
   {{> increment_value}}
 
-  {{> current_value}}
+  {{> current_value}} -->
 
   <div class="logs">
   </div>
 
 </body>
+
+<template name="header">
+  <div class="center aligned header-wrapper">
+      <div class="title">
+              <h1>Contract!</h1>
+      </div>
+      <div class="sub header">
+                by Anthony, Keeley and Harry
+      </div>
+      <button type="button" class="ui button mods">make new contract</button>
+  </div>
+</template>
+
 
 <template name="current_value">
   <div>
@@ -46,6 +60,8 @@ Input your GroupMe access token and group ID.
 </template>
 
 <template name="make_contract">
+  <div class="center aligned wrapper">
+
   <form id="makeContract">
     Access Token:
     <input type="text" id="accessToken">
@@ -55,7 +71,10 @@ Input your GroupMe access token and group ID.
     <br>
     <br>
     If <input type="text" id="username"> sends more than <input type="text" id="messageCap">
-    messages per minute, send <input type="text" id="etherAmount"> ether from account <input type="text" id="sendingAddress"> to account <input type="text" id="recipientAddress">.
+    messages per minute
+    <br> send <input type="text" id="etherAmount"> ether 
+    <br> from account <input type="text" id="sendingAddress"> 
+    <br> to account <input type="text" id="recipientAddress">.
     <br>
     <br>
     Input the information for the account that will fund the smart contract.
@@ -65,6 +84,10 @@ Input your GroupMe access token and group ID.
     <input type="text" id="ethereumAddress">
     <br>
     <br>
-    <button type="button" class="btn btn-info btn-lg">Deploy Contract</button>
+    <button type="button" class="ui button deploy">Deploy Contract</button>
+
+
   </form>
+  </div>
 </template>
+

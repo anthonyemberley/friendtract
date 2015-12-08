@@ -20,8 +20,6 @@ mybot.on('botRegistered', function(b) {
   b.message("WHAT UP BRO?");
 });
 
-console.log("dsfkljdsfkld")
-
 mybot.on('botMessage', function(b, message) {
   console.log(message.name + " said " + message.text);
   // if (message.name != b.name) {

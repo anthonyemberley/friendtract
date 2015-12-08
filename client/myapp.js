@@ -36,8 +36,17 @@ if (Meteor.isClient) {
     }
   });
 
+  Template.header.events({
+    'click .button.mods': function(event){
+       $('.ui.modal')
+        .modal('setting', 'closable', false)
+         .modal('show'); 
+    }
+  })
+  
+
   Template.make_contract.events({
-    'click button': function(event){
+    'click button.deploy': function(event){
       event.preventDefault();
       var data;
       var accessToken = $('#accessToken')[0].value;
@@ -66,7 +75,12 @@ if (Meteor.isClient) {
           console.log(res);
         }
       })
+      $('.ui.modal')
+         .modal('hide');
     }
+    
+
+
   });
 
 }

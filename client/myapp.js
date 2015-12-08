@@ -1,9 +1,23 @@
 if (Meteor.isClient) {
+
+  var checkGroupmeStatus = function(){
+    var data = Session.get('contractData');
+    Meteor.call('groupmeMagic',data,function(err,res){
+      if (err){
+        throw err;
+      }
+      else{
+        console.log(res);
+      }
+    })
+    setTimeout(checkGroupmeStatus,1000);
+  };
+
   Session.setDefault('value', 0);
 
   var addToLog = function(txt) {
     $(".logs").append("<br>" + txt);
-  }
+  };
 
   Template.current_value.helpers({
     value: function () {
@@ -57,15 +71,9 @@ if (Meteor.isClient) {
         "sendingAddress":sendingAddress,
         "recipientAddress":recipientAddress,
         "etherAddress":etherAddress
-      }
-      Meteor.call('groupmeMagic',data,function(err,res){
-        if (err){
-          throw err;
-        }
-        else{
-          console.log(res);
-        }
-      })
+      };
+      checkGroupmeStatus();
+      Session.set('contractData',data);
     }
   });
 

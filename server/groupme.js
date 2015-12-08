@@ -1,34 +1,24 @@
-
 Meteor.methods({
   groupmeMagic: function (data) {
     var API = Meteor.npmRequire('groupme').Stateless;
     const ACCESS_TOKEN = "f487ce307f3601338c7306fd38831e3b";
     const group_id = "18335909";
-    console.log(data);
-    API.Users.me(ACCESS_TOKEN, function(err,ret) {
-      if (err) {
-        throw err;
-      }
-      //console.log("Your user id is", ret.id, "and your name is", ret.name);
-    });
-
+    var result = true
     API.Messages.index(ACCESS_TOKEN, group_id, [], function(err,ret){
       if (!err) {
-        ret.messages.forEach(function(message){
-          if(message.sender_id == '11386760'){
-            //SimpleStorage.set(101);
-            //gotText();
+        messages = ret.messages;
+        messages = messages.reverse();
+        for (var i = 0; i < 10; i++){
+          var message = messages[i]
+          if (message.sender_id != '11386760'){
+            result =  false;
           }
-        })
+        }
       }
-      else{
-        throw err;
-      }
+      else{console.log(err)};
     });
-
-    return ACCESS_TOKEN;
+    return result;
   }
-
 })
 
 

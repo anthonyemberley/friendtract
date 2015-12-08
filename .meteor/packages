@@ -12,3 +12,6 @@ meteorhacks:npm
 
 
 npm-container
+bootstrap
+semantic:ui
+flemay:less-autoprefixer

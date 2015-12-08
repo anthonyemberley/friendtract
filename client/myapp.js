@@ -57,6 +57,10 @@ if (Meteor.isClient) {
          .modal('show'); 
     }
   })
+
+  Template.make_contract.onRendered(function(){
+      $('.info').hide();
+  });
   
 
   Template.make_contract.events({
@@ -81,11 +85,15 @@ if (Meteor.isClient) {
         "recipientAddress":recipientAddress,
         "etherAddress":etherAddress
       };
-      checkGroupmeStatus();
       Session.set('contractData',data);
+              checkGroupmeStatus();
+
 
       $('.ui.modal')
          .modal('hide');
+
+      $
+      $('.info').show();
     }
     
 

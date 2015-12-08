@@ -1,5 +1,5 @@
 <head>
-  <title>Contract!</title>
+  <title>Friendtract</title>
 </head>
 
 <body>
@@ -12,14 +12,9 @@
         Input your GroupMe access token and group ID.
         {{> make_contract}}
   </div>
+
+
   {{> header}}
-
-<!-- 
-  {{> set_value}}
-
-  {{> increment_value}}
-
-  {{> current_value}} -->
 
   <div class="logs">
   </div>
@@ -27,15 +22,29 @@
 </body>
 
 <template name="header">
-  <div class="center aligned header-wrapper">
-      <div class="title">
-              <h1>Contract!</h1>
-      </div>
-      <div class="sub header">
-                by Anthony, Keeley and Harry
-      </div>
-      <button type="button" class="ui button mods">make new contract</button>
-  </div>
+      
+      <div class="center aligned header-wrapper">
+         <div class= "ui three column grid">
+         <div class = "column">
+         </div>
+         <div class = "column">
+          <div class = "tmp">
+          </div>
+          <div class="header top list">
+                  friendtract
+          </div>
+          <div class="subtle header">
+                  smart contracts between friends
+          </div>
+          <button type="button" class="ui button mods">make new contract</button>
+          <div class="ui info message" align = "center">
+               your contract has been successfully deployed to the ethereum blockain
+          </div>
+          </div>
+          <div class = "column">
+          </div>
+          </div>  
+       </div>
 </template>
 
 

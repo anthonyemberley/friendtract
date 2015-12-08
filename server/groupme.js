@@ -6,7 +6,7 @@ Meteor.methods({
     var result = true
     API.Messages.index(ACCESS_TOKEN, group_id, [], function(err,ret){
       if (!err) {
-        messages = ret.messages;
+        var messages = ret.messages;
         messages = messages.reverse();
         for (var i = 0; i < 10; i++){
           var message = messages[i]
